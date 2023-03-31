@@ -144,10 +144,10 @@ const Node= function(input){
 }
 
 //TESTING
-const house_animals = LinkedList()
-console.log(house_animals.append("cat")); //cat
-console.log(house_animals.prepend("dog")); //dog --> cat
-console.log(house_animals.prepend("horse")); //horse -->dog --> cat
+//const house_animals = LinkedList()
+//console.log(house_animals.append("cat")); //cat
+//console.log(house_animals.prepend("dog")); //dog --> cat
+//console.log(house_animals.prepend("horse")); //horse -->dog --> cat
 //console.log(house_animals.get_head()) //returns horse
 //console.log(house_animals.get_size()) //3
 //console.log(house_animals.get_tail()) //cat
@@ -159,7 +159,7 @@ console.log(house_animals.prepend("horse")); //horse -->dog --> cat
 //console.log(house_animals.contains_node("dog"))
 
 //house_animals.append("cat")
-house_animals.append("rat")
+//house_animals.append("rat")
 //house_animals.append("mouse")
 //console.log(house_animals.full_list)
 //console.log(house_animals.pop());
@@ -167,8 +167,8 @@ house_animals.append("rat")
 
 //console.log(house_animals.find_node("rat"))
 
-console.log(house_animals.insertAt("sheep",1))
-console.log(house_animals.insertAt("hamster",5))
-console.log(house_animals.insertAt("cow",0))
+//console.log(house_animals.insertAt("sheep",1))
+//console.log(house_animals.insertAt("hamster",5))
+//console.log(house_animals.insertAt("cow",0))
 //console.log(house_animals.removeAt(3))
-console.log(house_animals.toString());
+//console.log(house_animals.toString());
